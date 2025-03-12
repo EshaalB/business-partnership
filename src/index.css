@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Oxygen&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans", "Oxygen", sans-serif;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  transition: color 0.2s ease;
+}
+
+.active {
+  background-color: white;
+
+  color: #23235e;
+}
